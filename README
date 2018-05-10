@@ -1,0 +1,9 @@
+INTRODUCTION
+------------
+kHTTPd Mini is a web server written in Python, for situations when you don't need a full featured web server.
+I also wrote this to learn more about the HTTP protocol.
+
+INSTALLATION
+------------
+kHTTPd Mini uses the Twisted library for handling network connections, so you must have it installed to use kHTTPd Mini.
+Simply edit the khttpd.conf file, and place your files in the directory you specified in khttpd.conf, and run khttpd.py!

@@ -1,0 +1,90 @@
+Build 18
+--------
+-- Removed old import
+
+Build 17
+--------
+-- Polishing up the PHP handler
+-- Random bug fixes.
+
+Build 16
+--------
+-- Added cookies support
+-- Fixed some bugs
+
+Build 15
+--------
+-- POST request handling
+-- POST variable handling (PHP)
+-- Fixed bug with sendNotFound()
+
+Build 14
+--------
+-- Mainly bug fixes, preparing to add POST requests
+
+Build 13
+--------
+-- Added GET variable handling (PHP)
+-- Added function to set environmental variables needed for php-cgi
+
+Build 12
+--------
+-- Fixed a bug in the PHP parser (now splits the headers generated and page content correctly)
+
+Build 11
+--------
+-- Started working on experimental PHP support
+
+Build 10
+--------
+-- Started working on parsing GET requests (parseGet class)
+-- Updated debug module to parse GET requests
+-- Added page sender class
+-- Added responsecodes file to index the various HTTP status codes
+-- Added requesthandler class
+
+Build 9
+-------
+-- Added http sub-package
+-- Start working on basis of HTTP responses (mainly headers)
+
+Build 8
+-------
+-- Add utils sub-package
+-- Added a basic mimetype handler
+-- Added a handler to get either local or GMT time
+
+Build 7
+-------
+-- Added debug mode (mainly outputting raw data received from the client, for development purposes)
+-- Added exception handling to configuration file parser, sets default settings if the config file can't be loaded
+
+Build 6
+-------
+-- Added logger class
+
+Build 5
+-------
+-- Added configuration file parser (default config file is khttpd.conf)
+-- Decided to separate classes into separate packages based on their use
+
+Build 4
+-------
+-- Finished skeleton of the networking backend (uses Twisted for handling connections)
+-- Added httpConstants class (constants.py) to the khttpdmini package.
+
+Build 3
+-------
+-- Added khttpdmini package
+-- Added CHANGELOG
+-- Added main source file (kHTTPd)
+-- Started working on networking backend
+
+Build 2
+-------
+-- Updated README
+-- Added LICENSE
+
+Build 1
+-------
+-- First commit to the project
